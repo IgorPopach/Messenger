@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test 1</title>
+    <link rel="stylesheet" href="css/main.min.css">
+</head>
+
+<body>
+
+    <header class="header margin-left">
+        <div class="header-content">
+            <nav class="header-content-nav">
+                <a href="#">Home</a>
+                <a href="#">Network</a>
+            </nav>
+            <div class="header-content-user">
+                <img src="img/user.png" alt="user-icon">
+                <span>Sarah Freeman</span>
+                <i class="fas fa-chevron-down"></i>
+            </div>
+        </div>
+    </header>
+
+    <div class="sidebar">
+        <a href="#" class="sidebar-logo">
+            <img src="img/logo.png" alt="logo">
+        </a>
+        <nav class="sidebar-nav">
+            <ul>
+                <li>
+                    <a href="#">
+                        <i class="far fa-calendar-alt"></i>
+                        <div class="counter"><span>9</span></div>
+                    </a>
+                </li>
+                <li><a href="#"><i class="fas fa-user"></i></i></a></li>
+                <li><a href="#"><i class="fas fa-tools"></i></a></li>
+                <li><a href="#"><i class="fas fa-users"></i></a></li>
+                <li class="active"><a href="#"><i class="fas fa-envelope"></i></a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <div id="content" class="margin-left">
+        <div class="main-container">
+            <div class="container messenger">
+                <div class="row no-gutters">
+                    <div class="d-none d-sm-block col-sm-6 col-md-5 col-lg-4 col-xl-3 messenger-list">
+                        <div class="messenger-list-card">
+                            <img src="img/user_1.png" alt="user-icon">
+                            <div>
+                                <div class="messenger-list-card-user">
+                                    <div>
+                                        <span class="messenger-list-card-user-name">
+                                            <span class="user-name">Sarah Freeman</span>
+                                            <span class="incomes"></span>
+                                            <span class="muted"></span>
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="messenger-list-card-text">Excepteur sint occaedfvbsdb</div>
+                            </div>
+                            <span class="messenger-list-card-time">9:32</span>
+                        </div>
+                        <div class="messenger-list-card">
+                            <img src="img/user_2.png" alt="user-icon">
+                            <div>
+                                <div class="messenger-list-card-user">
+                                    <div>
+                                        <span class="messenger-list-card-user-name">
+                                            <span class="user-name">Barry Callebaut</span>
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="messenger-list-card-text">Nemo enim ipsam voluptam</div>
+                            </div>
+                            <span class="messenger-list-card-time">22:01</span>
+                        </div>
+                        <div class="messenger-list-card active">
+                            <img src="img/user_3.png" alt="user-icon">
+                            <div>
+                                <div class="messenger-list-card-user">
+                                    <div>
+                                        <span class="messenger-list-card-user-name">
+                                            <span class="user-name">Stacey Dosh</span>
+                                            <span class="incomes"></span>
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="messenger-list-card-text">Ut enim ad minima veniamore</div>
+                            </div>
+                            <span class="messenger-list-card-time">19:15</span>
+                        </div>
+                        <div class="messenger-list-card">
+                            <img src="img/user_4.png" alt="user-icon">
+                            <div>
+                                <div class="messenger-list-card-user">
+                                    <div>
+                                        <span class="messenger-list-card-user-name">
+                                            <span class="user-name">Michael Kors</span>
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="messenger-list-card-text">To take a trivial example of something</div>
+                            </div>
+                            <span class="messenger-list-card-time">13:49</span>
+                        </div>
+                        <div class="messenger-list-card">
+                            <img src="img/user_5.png" alt="user-icon">
+                            <div>
+                                <div class="messenger-list-card-user">
+                                    <div>
+                                        <span class="messenger-list-card-user-name">
+                                            <span class="user-name">Johny Cash</span>
+                                            <span class="incomes"></span>
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="messenger-list-card-text">Great explorer of thruth</div>
+                            </div>
+                            <span class="messenger-list-card-time">10:25</span>
+                        </div>
+                        <div class="messenger-list-card">
+                            <img src="img/user_6.png" alt="user-icon">
+                            <div>
+                                <div class="messenger-list-card-user">
+                                    <div>
+                                        <span class="messenger-list-card-user-name">
+                                            <span class="user-name">Stacey Dosh</span>
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="messenger-list-card-text">Ut enim ad minima veniammo</div>
+                            </div>
+                            <span class="messenger-list-card-time">8:53</span>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-7 col-lg-8 col-xl-9 messenger-chat">
+                        <div class="messenger-chat-search">
+                            <button type="submit" class="clear-btn"><i class="magnifying-glass"></i></button>
+                            <input type="search" placeholder="Search message..." />
+                        </div>
+                        <div id="chat" class="messenger-chat-screen">
+                            <div class="messenger-chat-screen-writing">
+                                <div class="date">Yesterday, 16.03.2018</div>
+                                <div class="message recieved">
+                                    <img src="img/user_3.png" alt="user_3">
+                                    <div class="message-text triangle">
+                                        <p>On the other hand, we denounce with righteous indignation!</p>
+                                        <span>01:14</span>
+                                    </div>
+                                </div>
+                                <div class="message personal">
+                                    <div class="message-text triangle">
+                                        <p>Which is the same as saying?</p>
+                                        <span>01:38</span>
+                                    </div>
+                                </div>
+                                <div class="message recieved">
+                                    <img src="img/user_3.png" alt="user_3">
+                                    <div class="message-text triangle">
+                                        <p>But in certain circumstances and owing to the claims of duty or the
+                                            obligations of business it will frequently occur
+                                            that pleasures</p>
+                                        <span>01:14</span>
+                                    </div>
+                                </div>
+                                <div class="message personal">
+                                    <div class="message-text triangle">
+                                        <p>To take a trivial example, which of us ever undertakes)</p>
+                                        <span>01:38</span>
+                                    </div>
+                                </div>
+                                <div class="date">Today, 17.03.2018</div>
+                                <div class="message recieved">
+                                    <img src="img/user_3.png" alt="user_3">
+                                    <div class="message-text triangle">
+                                        <p>On the other hand, we denounce with righteous indignation!</p>
+                                        <span>01:14</span>
+                                    </div>
+                                </div>
+                                <div class="message personal">
+                                    <div class="message-text triangle">
+                                        <p>Which is the same as saying?</p>
+                                        <span>01:38</span>
+                                    </div>
+                                </div>
+                                <div class="message recieved">
+                                    <img src="img/user_3.png" alt="user_3">
+                                    <div class="message-text triangle">
+                                        <p>But in certain circumstances and owing to the claims of duty or the
+                                            obligations of business it will frequently occur
+                                            that pleasures</p>
+                                        <span>01:14</span>
+                                    </div>
+                                </div>
+                                <div class="message personal">
+                                    <div class="message-text triangle">
+                                        <p>To take a trivial example, which of us ever undertakes)</p>
+                                        <span>01:38</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="messenger-chat-write">
+                            <input type="search" placeholder="Write a message..." />
+                            <div class="controls">
+                                <i class="far fa-smile"></i>
+                                <i class="fas fa-paperclip"></i>
+                                <button type="submit" class="clear-btn"><i class="fas fa-paper-plane"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/scripts.min.js"></script>
+
+</body>
+
+</html>
